@@ -1,0 +1,332 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+#cabecera {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 20%;
+    margin-left: 38%;
+    margin-right: auto;
+}
+
+.menu_item {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.menu_item {
+    margin-right: 50px;
+    font-family: Raleway;
+    font-size: 30px;
+
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu_item a:hover {
+    color: #37FE6E;
+    transition: .5s;
+
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: DRAGON;
+    src: url(DragonHunter.otf);
+}
+
+#Fondo {
+    background-image: url("FONDOFISICA.jpg");
+    background-size: cover;
+    height: 1px;
+    background-position: center;
+    padding-bottom: 800px;
+}
+
+#Fondo1 {
+    background-image: url("HOJADEPREGUNTAS.png");
+    background-size: cover;
+
+
+}
+
+.titulo {
+    color: #EED57F;
+    font-size: 60px;
+    font-family: DRAGON;
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#parrafo p {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    padding: 20px;
+
+}
+
+#parrafo {
+    background-color: white;
+    box-shadow: 0 0 4px white;
+    max-width: 500px;
+    margin-left: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 232, 24);
+}
+
+.boton {
+    border-radius: 18px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid rgb(255, 232, 24);
+    font-family: DRAGON;
+    margin-left: 576px;
+    margin-top: -30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.boton:hover {
+    text-shadow: 0 0 5px rgb(255, 251, 0);
+    color: #eeea15;
+    transition: .5s;
+}
+
+.pregunta {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 800px;
+    border-bottom: 2px solid rgb(255, 232, 24);
+    font-size: 22px;
+}
+
+select {
+    border-radius: 10px;
+    background-color: black;
+    font-family: Raleway;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+    margin-left: 200px;
+}
+
+.M1,
+.M2,
+.M3,
+.M4,
+.M5 {
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(255, 232, 24);
+    font-family: Raleway;
+    font-size: 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 200px;
+}
+
+.M1:hover,
+.M2:hover,
+.M3:hover,
+.M4:hover,
+.M5:hover {
+    box-shadow: 0 0 5px#00f345;
+    text-shadow: 0 0 5px white;
+    transition: .5s;
+}
+
+.parra {
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 75px;
+}
+
+.parra1 {
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 420px;
+    margin-top: -130px;
+}
+
+.img1 {
+    margin-left: 200px;
+}
+
+body {
+    background-image: url("HOJADEPREGUNTAS.png");
+}
+
+.final {
+    margin: 0%;
+    background-color: #000000;
+
+}
+
+#FechaYHora {
+    color: white;
+    margin-left: 32%;
+}
+
+#Copyright {
+    margin-left: 28%;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Boostrap.min.css" rel="stylesheet">
+    <script src="boostrap.min.js"></script>
+    <link rel="stylesheet" href="PreguntasQuimica.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <title>opcion</title>
+</head>
+<!-- Realizado por Jesus Manuel, Ramses Norberto, Khalyd Alejandro,erick gael -->
+
+<body>
+    <header>
+        <div id="cabecera">
+            <a href="index.html"><img  src="Q_S.png" class="logo"></a>
+            <div class="row">
+                <div class="col menu_item">
+                    <a href="index.html">Inicio</a>
+                </div>
+                <div class="col menu_item">
+                    <a href="BIBLIOTECA.html">Biblioteca</a>
+                </div>
+                <div class="col menu_item puntaje">
+                    <a href="#" id="Puntos">Puntaje:</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col">
+            <div id="container">
+                <div id="cuadro-grande">
+                    <p id="texto">
+                    </p>
+                </div>
+
+                <div class="par-cuadros">
+                    <div class="cuadro" onclick="mostrarMensaje('Texto 1')">
+                        <p>La velocidad es <br> cero</p>
+                    </div>
+                    <div class="cuadro" onclick="mostrarMensaje('Texto 2')">
+                        <p> La velocidad es <br> constante.</p>
+                    </div>
+                </div>
+
+                <div class="par-cuadros">
+                    <div class="cuadro" onclick="mostrarMensaje('Texto 3')">
+                        <p> La velocidad es <br> máxima.</p>
+                    </div>
+                    <div class="cuadro" onclick="mostrarMensaje('Texto 4')">
+                        <p> La velocidad es <br> indeterminada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="final">
+        <footer id="Pie">
+            <p id="Copyright"> A.B.M.O.D.E.L &copy; 2023 Questions & Science. Todos los derechos reservados.</p>
+            <script src="ScriptFechaYhora.js"></script>
+            <div id="FechaYHora"></div>
+            <br><br>
+        </footer>
+    </div>
+    <script src="2Pregunta2Fisica.js"></script>
+    <script src="Puntos.js"></script>
+</body>
+
+</html>
